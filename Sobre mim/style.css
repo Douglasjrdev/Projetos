@@ -1,6 +1,7 @@
 :root{
     --primary-color:#10041F;
     --color-box:#904DC8;
+    --boxhab:#212121;
 }
 
 
@@ -124,6 +125,68 @@ body{
     text-decoration: none;
     color: rgb(216, 216, 216);
 }
+.about{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+.about h2{
+    font-size:40px;
+}
+.about p{
+    color: #8c8c96;
+    font-size: 20px;
+    width: 500px;
+    
+}
+/*CONTAINER DA HABILIDADE*/
+#habilidades h2{
+    text-align: center;
+    margin-top: 5%;
+}
+.contarinerhab{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+    
+}
+.box-hab{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 25% 10%;
+    transition: all ease-in-out .2s;
+    background-color: var(--boxhab);
+   
+    
+}
+.box-hab p{
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    color: var(--color-box);
+    font-weight: 600;
+}
+.box-hab img{
+    
+    width: 50%;
+}
+.box-hab:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
 
 
 
