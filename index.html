@@ -14,35 +14,56 @@
 
 <body>
     <nav class="menu">
-        <ul class="ul-menu">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-        </ul>
-        <p class="contato-menu"><a href="#">Contato</a> <i class="fa-solid fa-envelope"></i></p>
+        <div class="container">
+
+            <ul class="ul-menu">
+                <li><a href="#sec-sobre">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+            </ul>
+            <p class="contato-menu"><a href="#">Contato</a> <i class="fa-solid fa-envelope"></i></p>
+            <a href="#" class="btn-sidebar"><i class="fa-solid fa-bars"></i></a>
+        </div>
     </nav>
+    <nav class="sidebar">
+        <div class="container">
 
-    <main class="container">
-        <section class="info1" id="inicio">
+            <ul class="ul-side">
+                <li><a href="#sec-sobre">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href=""><a href="#">Contato</a><li>
+            </ul>
+           
+            
+           
+        </div>
+    </nav>
+    
 
-            <div class="info">
-                <div class="box">
-                    <p class="p-info">Olá, eu sou</p>
-                    <h1 class="h1-info">Douglas Alves Fernandes</h1>
-                    <h2 class="h2-info">Programador Front - End 🖥️</h2>
-                    <button type="button" class="btn-cv"><i class="fa-solid fa-download"></i> Baixar cv </button>
+    <main class="main">
+        <section class="sec-sobre" id="sec-sobre">
+            <div class="container"> 
+
+                <div class="info">
+                    <div class="box">
+                        <p class="p-info">Olá, eu sou</p>
+                        <h1 class="h1-info">Douglas Alves Fernandes</h1>
+                        <h2 class="h2-info">Programador Front - End 🖥️</h2>
+                        <button type="button" class="btn-cv"><i class="fa-solid fa-download"></i> Baixar cv </button>
+                    </div>
+    
+                    <div class="foto">
+                        <img src="img/WhatsApp Image 2024-10-06 at 02.22.05.jpeg" alt="">
+                    </div>
                 </div>
-
-
-                <div class="foto">
-                    <img src="img/400x400.jpeg" alt="">
+                <div class="about">
+                    <h2>Sobre mim</h2>
+                    <p>Desenvolvedor Front-end com experiência em JavaScript. Apaixonado pelo desenvolvimento de componentes
+                        reutilizáveis. Também possui experiência em projetos gerenciados por Metodologias Ágeis.</p>
                 </div>
-            </div>
-            <div class="about">
-                <h2>Sobre mim</h2>
-                <p>Desenvolvedor Front-end com experiência em JavaScript. Apaixonado pelo desenvolvimento de componentes
-                    reutilizáveis. Também possui experiência em projetos gerenciados por Metodologias Ágeis.</p>
             </div>
         </section>
         <section id="habilidades">
@@ -75,6 +96,7 @@
         <section id="contatos"></section>
     </main>
 
+        <script src="index.js"></script>
 
 </body>
 
