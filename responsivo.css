@@ -25,6 +25,14 @@
         display: block;
         margin-left: auto;
         
+        
+       }
+      
+       .sidebar.active{
+        transition: all 1s linear;
+       }
+       .sidebar{
+        transition: all 1s linear;
        }
       
    }
@@ -37,6 +45,9 @@
     .foto{
         height: auto;
         
+    }
+    .sidebar{
+        transition: all 1s ease-in-out;
     }
 
    }
