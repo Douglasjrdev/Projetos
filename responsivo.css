@@ -28,12 +28,6 @@
         
        }
       
-       .sidebar.active{
-        transition: all 1s linear;
-       }
-       .sidebar{
-        transition: all 1s linear;
-       }
       
    }
    @media (max-width:440px){
@@ -47,7 +41,8 @@
         
     }
     .sidebar{
-        transition: all 1s ease-in-out;
+       
+        width: 87%;
     }
 
    }
